@@ -1,0 +1,8 @@
+<Project>
+  <!-- Se importa antes de los .props de NuGet; WindowsAppSDK necesita esta versión en esa fase. -->
+  <PropertyGroup>
+    <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
+    <!-- WindowsAppSDK 1.5 todavía publica RIDs win10-*; .NET 8 los habilita con el grafo legado. -->
+    <UseRidGraph>true</UseRidGraph>
+  </PropertyGroup>
+</Project>
